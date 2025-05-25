@@ -1,6 +1,6 @@
 # Healthcare Dashboard UI (React)
 
-This project is a front-end design attempt to recreate a pixel-perfect layout from a reference image — trying out new layouts, color schemes, and visual hierarchies to match real-world UI standards. It mainly focuses on:
+ A fresh take on designing modern healthcare dashboards using React! This project is a front-end design attempt to recreate a pixel-perfect layout from a reference image — trying out new layouts, color schemes, and visual hierarchies to match real-world UI standards. It mainly focuses on:
 
 - Responsive design
 - Reusable components
@@ -10,6 +10,10 @@ This project is a front-end design attempt to recreate a pixel-perfect layout fr
 ## 📸 Preview
 
 ![Dashboard Preview](./src/assets/preview.png)
+
+## 🚀 Live Demo
+
+👉 [Click here to view the live demo](https://your-live-demo-link.netlify.app) 
 
 ## 🚀 Features
 
