@@ -1,12 +1,80 @@
-# React + Vite
+# Healthcare Dashboard UI (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a front-end design attempt to recreate a pixel-perfect layout from a reference image — trying out new layouts, color schemes, and visual hierarchies to match real-world UI standards. It mainly focuses on:
 
-Currently, two official plugins are available:
+- Responsive design
+- Reusable components
+- Flexbox & CSS Grid
+- Static mock data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![Dashboard Preview](./src/assets/preview.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- Sidebar and Header layout
+- Calendar view with appointment slots
+- Upcoming schedule card
+- Activity feed with multi-colored bar chart
+- Health status cards
+- Anatomy section
+- responsive
+
+## 🛠️ Tech Stack
+
+- React
+- CSS3 (Flexbox, Grid, Media Queries)
+- Mock data (no backend)
+
+## 📂 Project Structure
+```text
+📦 healthcare-dashboard-ui
+├── 📁 public
+│   └── preview.png
+├── 📁 src
+│   ├── 📁 assets     
+│   ├── 📁 components
+│   │   ├── 📁 Dashboard
+│   │   │   ├── AnatomySection.jsx
+│   │   │   ├── CalendarView.jsx
+│   │   │   ├── HealthStatusCards.jsx
+│   │   │   ├── UpcomingSchedule.jsx
+│   │   │   └── ActivityFeed.jsx
+│   │   └── Sidebar.jsx
+|   |   |__ Header.jsx
+│   ├── 📁 data
+│   │   |__ calenderData.js
+|   |   |__ healthData.js
+|   |   |__ appointments.js
+|   |   |__ navigation.jsx
+│   ├── 📁 styles
+│   │   └── App.css
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+├── .gitignore
+├── README.md
+├── package.json
+└── vite.config.js
+```
+
+
+## 📦 Getting Started
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/healthcare-dashboard.git
+cd healthcare-dashboard
+Install dependencies:
+npm install
+Run the app:
+npm run dev
+
+🙋‍♀️ Author
+Gouri Nandhana
+Frontend Developer | Full Stack Developer | Passionate about clean UI and UX
+
+📄 License
+This project is for demonstration purposes and not licensed for commercial use. Feel free to use the structure and ideas for your own learning.
