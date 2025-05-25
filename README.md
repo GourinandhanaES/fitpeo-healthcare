@@ -13,7 +13,7 @@
 
 ## 🚀 Live Demo
 
-👉 [Click here to view the live demo]([https://fitpeo-healthcare.vercel.app/]) 
+👉 [Click here to view the live demo](https://fitpeo-healthcare.vercel.app/) 
 
 ## 🚀 Features
 
