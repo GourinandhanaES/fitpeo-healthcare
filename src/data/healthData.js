@@ -28,21 +28,21 @@ export const healthCards = [
     status: 'Issue',
     date: '2021-10-05',
     icon: lungsIcon,
-    progressColor: 'rgb(168, 3, 3)',
+    progressColor: '#a84545',
   },
   {
     title: 'Teeth',
     status: 'Healthy',
     date: '2021-10-03',
     icon: toothIcon,
-    progressColor: 'rgb(11, 175, 175)',
+    progressColor: '#74caba',
   },
   {
     title: 'Bone',
     status: 'Issue',
     date: '2021-10-07',
     icon: boneIcon,
-    progressColor: 'rgb(250, 103, 5)',
+    progressColor: '#f87460',
   },
 ];
 
