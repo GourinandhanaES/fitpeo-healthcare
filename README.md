@@ -44,7 +44,9 @@
 │   │   │   ├── CalendarView.jsx
 │   │   │   ├── HealthStatusCards.jsx
 │   │   │   ├── UpcomingSchedule.jsx
-│   │   │   └── ActivityFeed.jsx
+│   │   │   ├── ActivityFeed.jsx
+|   |   |   ├── SimpleAppoinmentCard.jsx
+|   |   |   |__ DashboardMainContent
 │   │   └── Sidebar.jsx
 |   |   |__ Header.jsx
 │   ├── 📁 data
